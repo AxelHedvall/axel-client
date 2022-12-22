@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "axelclient",
+  "version": "${version}",
+
+  "name": "Axel Client",
+  "description": "This is a client side ",
+  "authors": [
+    "Axel Hedvall"
+  ],
+  "contact": {
+    "homepage": "https://axelhedvall.se/",
+    "sources": "https://github.com/axelhedvall/axel-client"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/axelclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "se.axelhedvall.axelclient.AxelClientMod"
+    ]
+  },
+  "mixins": [ ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
